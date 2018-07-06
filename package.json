@@ -1,0 +1,24 @@
+{
+  "name": "adopt-a-pet",
+  "version": "1.0.0",
+  "description": "Find a pet using the Petfinder API to search for pets via zipcode",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "parcel index.html -d dist -p 5000",
+    "build": "parcel build"
+  },
+  "keywords": [
+    "adopt a pet, petfinder, dogs, cats, birds, horses, reptiles, barnyard, smallfurry, pet-adoption, local pets, animal shelters"
+  ],
+  "author": "Seth Bergman <seth.atxwebs@gmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "babel-core": "^6.26.3",
+    "babel-preset-env": "^1.7.0",
+    "fetch-jsonp": "^1.1.3"
+  },
+  "devDependencies": {
+    "parcel-bundler": "^1.9.4"
+  }
+}
