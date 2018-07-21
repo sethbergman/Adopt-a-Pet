@@ -3,15 +3,19 @@
   "version": "1.0.0",
   "description": "Find a pet using the Petfinder API to search for pets via zipcode",
   "main": "index.js",
+  "engines": {
+    "node": ">=10",
+    "npm": ">=6"
+  },
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
+    "test": "sh test/index.test.sh",
     "start": "parcel index.html -d dist -p 5000",
     "build": "parcel build"
   },
   "keywords": [
-    "adopt a pet, petfinder, dogs, cats, birds, horses, reptiles, barnyard, smallfurry, pet-adoption, local pets, animal shelters"
+    "adopt-a-pet, petfinder, dogs, cats, birds, horses, reptiles, barnyard, smallfurry, pet-adoption, local pets, animal-shelters"
   ],
-  "author": "Seth Bergman <seth.atxwebs@gmail.com>",
+  "author": "Seth Bergman",
   "license": "MIT",
   "dependencies": {
     "babel-core": "^6.26.3",
