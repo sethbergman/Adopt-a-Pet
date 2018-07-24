@@ -2,8 +2,7 @@
 
 > Vanilla JS app that uses the Petfinder API to search for pets via zip code. Uses Parcel, Babel and fetch-jsonp
 
-[![Greenkeeper badge](https://badges.greenkeeper.io/sethbergman/Adopt-a-Pet.svg)](https://greenkeeper.io/)
-[![Build Status](https://travis-ci.org/sethbergman/Adopt-a-Pet.svg?branch=master)](https://travis-ci.org/sethbergman/Adopt-a-Pet)
+[![Build Status](https://travis-ci.org/sethbergman/Adopt-a-Pet.svg?branch=master)](https://travis-ci.org/sethbergman/Adopt-a-Pet) [![Greenkeeper badge](https://badges.greenkeeper.io/sethbergman/Adopt-a-Pet.svg)](https://greenkeeper.io/)
 
 ## Quick Start
 
