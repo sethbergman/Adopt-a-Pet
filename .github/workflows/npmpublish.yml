@@ -19,6 +19,9 @@ jobs:
       - run: npm install . --save
       - run: npm shrinkwrap
       - run: npm pack
+      - run: npm publish --registry https://registry.npmjs.org/
+        env:
+          NODE_AUTH_TOKEN: ${{secrets.NPM_AUTH_TOKEN}}
 
   publish-npm:
     needs: build
