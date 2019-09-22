@@ -16,10 +16,9 @@ jobs:
       - uses: actions/setup-node@v1
         with:
           node-version: 12
-      - run: npm pack
+      - run: npm install . --save
       - run: npm shrinkwrap
-      - run: npm ci
-      - run: npm test
+      - run: npm pack
 
   publish-npm:
     needs: build
