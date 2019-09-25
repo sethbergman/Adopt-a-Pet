@@ -2,10 +2,14 @@ language: node_js
 
 node_js:
   - '10'
+  - '12'
 
 before_install:
   - npm i -g npm
-  - npm i
+  - npm i -S
+  - npm shrinkwrap
+  - npm pack
 
 script:
-- npm test
+  - npm test
+  - npm publish
